@@ -8,9 +8,11 @@ This is very helpfull for HTML only website.
 
 <h1>How To Use:</h1>
 Requirements:
-1. jQuery
-2. Bootstrap CSS and Javascript
-3. Font Awesome (If you don't want the social buttons, then you don't need)
-4. Jquery Validate plugin
+<ul>
+<li>1. jQuery</li>
+<li>2. Bootstrap CSS and Javascript</li>
+<li>3. Font Awesome (If you don't want the social buttons, then you don't need)</li>
+<li>4. Jquery Validate plugin</li>
+</ul>
 
-Check your html where you want to add this contact form. You might have already added some of these (or all) already.
+Check your html where you want to add this contact form. You might have already added some of these (or all of these) already.
