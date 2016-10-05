@@ -9,7 +9,7 @@ $email = $_REQUEST['email'];
 $message = $_REQUEST['message'];
 
 //Set Your Email address in which you want to receive the email from contact form
-$tomail="faysal@webpers.com";
+$tomail="youremail@example.com";
 
 		//======== for sending email========
 		$to = $tomail;

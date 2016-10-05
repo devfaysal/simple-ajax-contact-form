@@ -131,7 +131,7 @@
                 submitHandler: function (form) {
                     $.ajax({
 						//set the url of the php file that handle email processing
-                        url: "http://faysal.me/sandbox/site/mail/mail.php",
+                        url: "mail/mail.php",
                         type: form.method,
                         data: $(form).serialize(),
                         success: function (response) {
