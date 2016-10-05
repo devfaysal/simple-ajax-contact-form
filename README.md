@@ -1,7 +1,7 @@
 # Simple Ajax Contact Form
 A simple contact form for HTML website and hybrid App.
 
-Try Demo: <a href="http://faysal.me/sandbox/simple-ajax-contact-form/">Simple Ajax Contact Form</a>
+Try Demo: <a href="http://faysal.me/sandbox/simple-ajax-contact-form/" target="_blank">Simple Ajax Contact Form</a>
 
 This is a very simple contact from. You can add it to your website or in your hybrid Android/IOS app or whereever you want.
 This is very helpfull for HTML only website.
