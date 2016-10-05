@@ -1,4 +1,4 @@
-# Simple Ajax Contact Form
+# Simple Ajax Contact Form v0.1.0
 A simple contact form for HTML website and hybrid App.
 
 Try Demo: <a href="http://faysal.me/sandbox/simple-ajax-contact-form/" target="_blank">Simple Ajax Contact Form</a>
