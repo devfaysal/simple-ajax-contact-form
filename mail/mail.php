@@ -1,13 +1,12 @@
 <?php
 header("Access-Control-Allow-Origin: *");
-if($_SERVER['REQUEST_METHOD'] == 'post'){
 date_default_timezone_set("Asia/Dhaka"); 
 $dateTime = date("Y-m-d-h-i-s-A");
 $name = $_REQUEST['name'];
 $phone = $_REQUEST['phone'];
 $email = $_REQUEST['email'];
 $message = $_REQUEST['message'];
-
+//To Email
 //Set Your Email address in which you want to receive the email from contact form
 $tomail="youremail@example.com";
 
@@ -40,8 +39,9 @@ $tomail="youremail@example.com";
 		$headers .= 'From: ' .$email. "\r\n";
 		// $headers .= 'Cc: myboss@example.com' . "\r\n";
 
-		if(mail($to,$subject,$msg,$headers)){
-		//======== for sending email========
-            echo 'Message sent successfully';
-        }
-}
+		if( isset( $_SERVER['HTTP_X_REQUESTED_WITH'] ) && ( $_SERVER['HTTP_X_REQUESTED_WITH'] == 'XMLHttpRequest' ) ){
+			if(mail($to,$subject,$msg,$headers)){
+			//======== for sending email========
+				echo 'Message sent successfully';
+			}
+		}
