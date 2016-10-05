@@ -1,5 +1,5 @@
 # Simple Ajax Contact Form
-A simple contact form for HTML website or hybrid App.
+A simple contact form for HTML website and hybrid App.
 
 Try Demo: <a href="http://faysal.me/sandbox/simple-ajax-contact-form/">Simple Ajax Contact Form</a>
 
@@ -27,11 +27,11 @@ upload the mail folder or the mail.php in your server/hosting. change the url in
 <br>
 That's all. The form should work fine. If anything wrong, check the steps again and find what you've missed. Still problem? comment here. I will reply.
 <br>
-<h1>courtesy</h1>
+<h1>Courtesy</h1>
 <ul>
-<li>JQuery</li>
+<li>jQuery</li>
 <li>Bootstrap</li>
 <li>Font Awesome</li>
-<li>JQuery Validate Plugin</li>
+<li>jQuery Validate Plugin</li>
 <li>CDN Hosts (Max CDN, Microsoft CDN, Cloudflare CDN)</li>
 </ul>
