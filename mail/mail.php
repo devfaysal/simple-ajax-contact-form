@@ -38,7 +38,8 @@ $tomail="youremail@example.com";
 		// More headers
 		$headers .= 'From: ' .$email. "\r\n";
 		// $headers .= 'Cc: myboss@example.com' . "\r\n";
-
+		
+		//Disallow if this page accessed directly
 		if( isset( $_SERVER['HTTP_X_REQUESTED_WITH'] ) && ( $_SERVER['HTTP_X_REQUESTED_WITH'] == 'XMLHttpRequest' ) ){
 			if(mail($to,$subject,$msg,$headers)){
 			//======== for sending email========
